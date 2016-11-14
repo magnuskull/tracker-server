@@ -5,13 +5,13 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'puma'
 gem 'jsonapi-resources'
 gem 'pg'
+gem 'apitome'
 
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
-  gem 'rspec_api_documentation'
-  gem 'apitome'
+  gem 'rspec_api_documentation'  
 end
 group :development do
   gem 'spring'
