@@ -4,11 +4,11 @@
       "name": "Users",
       "examples": [
         {
-          "description": "POST /v1/users",
-          "link": "users/post_v1users.json",
+          "description": "GET /v1/users",
+          "link": "users/get_v1users.json",
           "groups": "all",
           "route": "/v1/users",
-          "method": "post"
+          "method": "get"
         },
         {
           "description": "PATCH /v1/users/:id",
@@ -25,10 +25,50 @@
           "method": "get"
         },
         {
-          "description": "GET /v1/users",
-          "link": "users/get_v1users.json",
+          "description": "POST /v1/users",
+          "link": "users/post_v1users.json",
           "groups": "all",
           "route": "/v1/users",
+          "method": "post"
+        }
+      ]
+    },
+    {
+      "name": "Timeline entries",
+      "examples": [
+        {
+          "description": "GET /v1/timeline-entries",
+          "link": "timeline_entries/get_v1timeline-entries.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries",
+          "method": "get"
+        },
+        {
+          "description": "POST /v1/timeline-entries",
+          "link": "timeline_entries/post_v1timeline-entries.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries",
+          "method": "post"
+        },
+        {
+          "description": "PATCH /v1/timeline-entries/:id",
+          "link": "timeline_entries/patch_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:timeline_entry_id",
+          "method": "patch"
+        },
+        {
+          "description": "DELETE /v1/timeline-entries/:id",
+          "link": "timeline_entries/delete_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:timeline_entry_id",
+          "method": "delete"
+        },
+        {
+          "description": "GET /v1/timeline-entries/:id",
+          "link": "timeline_entries/get_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:id",
           "method": "get"
         }
       ]
@@ -36,6 +76,13 @@
     {
       "name": "Timelines",
       "examples": [
+        {
+          "description": "POST /v1/timelines/",
+          "link": "timelines/post_v1timelines.json",
+          "groups": "all",
+          "route": "/v1/timelines",
+          "method": "post"
+        },
         {
           "description": "GET /v1/timelines",
           "link": "timelines/get_v1timelines.json",
@@ -63,13 +110,6 @@
           "groups": "all",
           "route": "/v1/timelines/:timeline_id",
           "method": "patch"
-        },
-        {
-          "description": "POST /v1/timelines/",
-          "link": "timelines/post_v1timelines.json",
-          "groups": "all",
-          "route": "/v1/timelines",
-          "method": "post"
         }
       ]
     }

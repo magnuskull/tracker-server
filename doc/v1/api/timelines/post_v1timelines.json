@@ -30,7 +30,7 @@
     {
       "request_method": "POST",
       "request_path": "/v1/timelines",
-      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"data\":{\"type\":\"users\",\"id\":\"649\"}}}}}",
+      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"data\":{\"type\":\"users\",\"id\":\"730\"}}}}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -39,7 +39,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"306\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/306\"},\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/306/relationships/user\",\"related\":\"http://example.org/v1/timelines/306/user\"},\"data\":{\"type\":\"users\",\"id\":\"649\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"372\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/372\"},\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/372/relationships/user\",\"related\":\"http://example.org/v1/timelines/372/user\"},\"data\":{\"type\":\"users\",\"id\":\"730\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

@@ -1,0 +1,55 @@
+{
+  "resource": "Timeline entries",
+  "http_method": "PATCH",
+  "route": "/v1/timeline-entries/:timeline_entry_id",
+  "description": "PATCH /v1/timeline-entries/:id",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "type",
+      "description": "      The type of resource. Must be 'timeline_entries'.\n"
+    },
+    {
+      "scope": "attributes",
+      "required": true,
+      "name": "value",
+      "description": "      The value of the timeline_entry.\n"
+    },
+    {
+      "scope": "relationships",
+      "required": true,
+      "name": "timeline",
+      "description": "      The timeline the entry belongs to.\n"
+    },
+    {
+      "required": true,
+      "name": "id",
+      "description": "      The id of the timeline_entry.\n"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "PATCH",
+      "request_path": "/v1/timeline-entries/50",
+      "request_body": "{\"data\":{\"type\":\"timeline_entries\",\"attributes\":{\"value\":2},\"id\":\"50\"}}",
+      "request_headers": {
+        "Content-Type": "application/vnd.api+json"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/vnd.api+json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"data\":{\"id\":\"50\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/50\"},\"attributes\":{\"value\":2},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/50/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/50/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"369\"}}}}}",
+      "response_headers": {
+        "Content-Type": "application/vnd.api+json; charset=utf-8"
+      },
+      "response_content_type": "application/vnd.api+json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

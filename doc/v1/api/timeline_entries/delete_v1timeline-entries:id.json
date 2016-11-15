@@ -1,8 +1,8 @@
 {
-  "resource": "Timelines",
+  "resource": "Timeline entries",
   "http_method": "DELETE",
-  "route": "/v1/timelines/:timeline_id",
-  "description": "DELETE /v1/timelines/:id",
+  "route": "/v1/timeline-entries/:timeline_entry_id",
+  "description": "DELETE /v1/timeline-entries/:id",
   "explanation": null,
   "parameters": [
 
@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "/v1/timelines/375",
+      "request_path": "/v1/timeline-entries/51",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
