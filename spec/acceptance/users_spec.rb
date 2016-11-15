@@ -95,7 +95,7 @@ RSpec.resource "Users" do
       persisted_user.id.to_s
     end
 
-    example "DELETE /v1/users/" do
+    example "DELETE /v1/users/:id" do
       expect{do_request}.to raise_error(ActionController::RoutingError)
     end
   end
