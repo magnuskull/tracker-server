@@ -86,17 +86,4 @@ RSpec.resource "Users" do
     end
   end
 
-  delete "/v1/users/:user_id" do
-    let! :persisted_user do
-      FactoryGirl.create(:user)
-    end
-
-    let "user_id" do
-      persisted_user.id.to_s
-    end
-
-    example "DELETE /v1/users/:id" do
-      expect{do_request}.to raise_error(ActionController::RoutingError)
-    end
-  end
 end

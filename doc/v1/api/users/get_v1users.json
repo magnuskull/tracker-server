@@ -1,8 +1,8 @@
 {
   "resource": "Users",
   "http_method": "GET",
-  "route": "/v1/users/:id",
-  "description": "GET /v1/users/:id",
+  "route": "/v1/users",
+  "description": "GET /v1/users",
   "explanation": null,
   "parameters": [
 
@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/v1/users/641",
+      "request_path": "/v1/users",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"641\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/641\"},\"attributes\":{\"username\":\"User Name 2\"}}}",
+      "response_body": "{\"data\":[{\"id\":\"642\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/642\"},\"attributes\":{\"username\":\"User Name 3\"}},{\"id\":\"643\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/643\"},\"attributes\":{\"username\":\"User Name 4\"}}],\"meta\":{\"record-count\":2},\"links\":{\"first\":\"http://example.org/v1/users?page%5Blimit%5D=50\\u0026page%5Boffset%5D=0\",\"last\":\"http://example.org/v1/users?page%5Blimit%5D=50\\u0026page%5Boffset%5D=0\"}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

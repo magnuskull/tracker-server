@@ -113,14 +113,6 @@ RSpec.resource "Timelines" do
       persisted_timeline.id.to_s
     end
 
-    parameter "id", <<-DESC, required: true
-      The id of the timeline.
-    DESC
-
-    let :id do
-      persisted_timeline.id.to_s
-    end
-
     example_request "DELETE /v1/timelines/:id" do
       expect(status).to eq 204
     end

@@ -33,7 +33,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"1\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/1\"},\"attributes\":{\"username\":\"mkull\"}}}",
+      "response_body": "{\"data\":{\"id\":\"639\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/639\"},\"attributes\":{\"username\":\"mkull\"}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

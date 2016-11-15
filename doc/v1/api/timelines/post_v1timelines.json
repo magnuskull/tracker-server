@@ -1,0 +1,50 @@
+{
+  "resource": "Timelines",
+  "http_method": "POST",
+  "route": "/v1/timelines",
+  "description": "POST /v1/timelines/",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "type",
+      "description": "      The type of resource. Must be 'timelines'.\n"
+    },
+    {
+      "scope": "attributes",
+      "required": true,
+      "name": "name",
+      "description": "      The name of the timeline.\n"
+    },
+    {
+      "scope": "relationships",
+      "required": true,
+      "name": "user",
+      "description": "      The user the timeline belongs to.\n"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "POST",
+      "request_path": "/v1/timelines",
+      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"data\":{\"type\":\"users\",\"id\":\"649\"}}}}}",
+      "request_headers": {
+        "Content-Type": "application/vnd.api+json"
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/vnd.api+json",
+      "response_status": 201,
+      "response_status_text": "Created",
+      "response_body": "{\"data\":{\"id\":\"306\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/306\"},\"attributes\":{\"name\":\"Timeline1\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/306/relationships/user\",\"related\":\"http://example.org/v1/timelines/306/user\"},\"data\":{\"type\":\"users\",\"id\":\"649\"}}}}}",
+      "response_headers": {
+        "Content-Type": "application/vnd.api+json; charset=utf-8"
+      },
+      "response_content_type": "application/vnd.api+json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
