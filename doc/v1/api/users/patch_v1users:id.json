@@ -28,8 +28,8 @@
   "requests": [
     {
       "request_method": "PATCH",
-      "request_path": "/v1/users/721",
-      "request_body": "{\"data\":{\"id\":\"721\",\"type\":\"users\",\"attributes\":{\"username\":\"mkull1\"}}}",
+      "request_path": "/v1/users/836",
+      "request_body": "{\"data\":{\"id\":\"836\",\"type\":\"users\",\"attributes\":{\"username\":\"mkull1\"}}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -38,7 +38,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"721\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/721\"},\"attributes\":{\"username\":\"mkull1\"}}}",
+      "response_body": "{\"data\":{\"id\":\"836\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/836\"},\"attributes\":{\"username\":\"mkull1\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/836/relationships/timelines\",\"related\":\"http://example.org/v1/users/836/timelines\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

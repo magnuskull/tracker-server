@@ -33,7 +33,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"723\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/723\"},\"attributes\":{\"username\":\"mkull\"}}}",
+      "response_body": "{\"data\":{\"id\":\"839\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/839\"},\"attributes\":{\"username\":\"mkull\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/839/relationships/timelines\",\"related\":\"http://example.org/v1/users/839/timelines\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

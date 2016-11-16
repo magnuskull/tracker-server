@@ -34,8 +34,8 @@
   "requests": [
     {
       "request_method": "PATCH",
-      "request_path": "/v1/timeline-entries/50",
-      "request_body": "{\"data\":{\"type\":\"timeline_entries\",\"attributes\":{\"value\":2},\"id\":\"50\"}}",
+      "request_path": "/v1/timeline-entries/88",
+      "request_body": "{\"data\":{\"type\":\"timeline_entries\",\"attributes\":{\"value\":2},\"id\":\"88\"}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -44,7 +44,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"50\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/50\"},\"attributes\":{\"value\":2},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/50/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/50/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"369\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"88\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/88\"},\"attributes\":{\"value\":2},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/88/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/88/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"449\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

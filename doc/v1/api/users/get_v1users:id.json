@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/v1/users/722",
+      "request_path": "/v1/users/840",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"722\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/722\"},\"attributes\":{\"username\":\"User Name 4\"}}}",
+      "response_body": "{\"data\":{\"id\":\"840\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/840\"},\"attributes\":{\"username\":\"User Name 16\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/840/relationships/timelines\",\"related\":\"http://example.org/v1/users/840/timelines\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },
