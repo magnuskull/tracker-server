@@ -2,7 +2,7 @@ module V1
   RSpec.describe TimelineResource do
 
     let :creatable_fields do
-      [:name, :user, ].sort
+      [:name, :user, :question].sort
     end
 
     subject do

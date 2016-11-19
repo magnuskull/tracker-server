@@ -2,6 +2,7 @@ module V1
   class TimelineResource < BaseResource
 
     attribute :name
+    attribute :question
 
     has_one :user
 

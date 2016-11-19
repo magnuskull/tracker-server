@@ -17,6 +17,12 @@
       "description": "      The name of the timeline.\n"
     },
     {
+      "scope": "attributes",
+      "required": true,
+      "name": "question",
+      "description": "      A question asking what to track, e.g. 'How are you now?'.\n"
+    },
+    {
       "scope": "relationships",
       "required": true,
       "name": "user",
@@ -34,8 +40,8 @@
   "requests": [
     {
       "request_method": "PATCH",
-      "request_path": "/v1/timelines/439",
-      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline edited\"},\"id\":\"439\"}}",
+      "request_path": "/v1/timelines/52",
+      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline edited\"},\"id\":\"52\"}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -44,7 +50,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"439\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/439\"},\"attributes\":{\"name\":\"Timeline edited\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/439/relationships/user\",\"related\":\"http://example.org/v1/timelines/439/user\"},\"data\":{\"type\":\"users\",\"id\":\"825\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/439/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/439/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"52\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/52\"},\"attributes\":{\"name\":\"Timeline edited\",\"question\":\"How are you?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/52/relationships/user\",\"related\":\"http://example.org/v1/timelines/52/user\"},\"data\":{\"type\":\"users\",\"id\":\"75\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/52/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/52/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

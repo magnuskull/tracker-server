@@ -16,6 +16,10 @@ RSpec.resource "Timelines" do
       The name of the timeline.
     DESC
 
+    parameter "question", <<-DESC, scope: :attributes, required: true
+      A question asking what to track, e.g. 'How are you now?'.
+    DESC
+
     parameter "user", <<-DESC, scope: :relationships, required: true
       The user the timeline belongs to.
     DESC
@@ -39,6 +43,10 @@ RSpec.resource "Timelines" do
 
     let "name" do
       "Timeline1"
+    end
+
+    let "question" do
+      "How are you now?"
     end
 
     example_request "POST /v1/timelines/" do

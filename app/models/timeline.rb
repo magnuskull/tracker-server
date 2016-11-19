@@ -4,6 +4,7 @@ class Timeline < ActiveRecord::Base
   has_many :timeline_entries
 
   validates_presence_of :name
+  validates_presence_of :question  
   validates_presence_of :user
 
 end
