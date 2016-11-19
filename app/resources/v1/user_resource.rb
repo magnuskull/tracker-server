@@ -4,10 +4,11 @@ module V1
     attribute :username
 
     has_many :timelines
+    has_many :timeline_entries
 
     class << self
       def creatable_fields(context)
-        super - [:timelines]
+        super - [:timelines, :timeline_entries]
       end
       def updatable_fields(context)
         creatable_fields(context)

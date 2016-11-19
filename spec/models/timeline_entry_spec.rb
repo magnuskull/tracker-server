@@ -11,5 +11,6 @@ RSpec.describe TimelineEntry do
 
  describe "relations" do
    it { is_expected.to belong_to :timeline }
+   it { is_expected.to have_one(:user).through(:timeline) }
  end
 end

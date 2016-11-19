@@ -1,6 +1,7 @@
 class TimelineEntry < ActiveRecord::Base
 
   belongs_to :timeline
+  has_one :user, through: :timeline
 
   validates_presence_of :timeline
 

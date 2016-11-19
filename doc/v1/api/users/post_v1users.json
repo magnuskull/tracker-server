@@ -33,7 +33,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"67\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/67\"},\"attributes\":{\"username\":\"mkull\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/67/relationships/timelines\",\"related\":\"http://example.org/v1/users/67/timelines\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"251\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/251\"},\"attributes\":{\"username\":\"mkull\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/251/relationships/timelines\",\"related\":\"http://example.org/v1/users/251/timelines\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/users/251/relationships/timeline-entries\",\"related\":\"http://example.org/v1/users/251/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },
