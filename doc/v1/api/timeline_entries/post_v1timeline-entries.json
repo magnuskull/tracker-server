@@ -30,7 +30,7 @@
     {
       "request_method": "POST",
       "request_path": "/v1/timeline-entries",
-      "request_body": "{\"data\":{\"type\":\"timeline_entries\",\"attributes\":{\"value\":3},\"relationships\":{\"timeline\":{\"data\":{\"type\":\"timelines\",\"id\":\"174\"}}}}}",
+      "request_body": "{\"data\":{\"type\":\"timeline_entries\",\"attributes\":{\"value\":3},\"relationships\":{\"timeline\":{\"data\":{\"type\":\"timelines\",\"id\":\"251\"}}}}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -39,7 +39,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"84\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/84\"},\"attributes\":{\"value\":3},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/84/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/84/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"174\"}},\"user\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/84/relationships/user\",\"related\":\"http://example.org/v1/timeline-entries/84/user\"},\"data\":{\"type\":\"users\",\"id\":\"250\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"125\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/125\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.747Z\",\"value\":3},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/125/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/125/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"251\"}},\"user\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/125/relationships/user\",\"related\":\"http://example.org/v1/timeline-entries/125/user\"},\"data\":{\"type\":\"users\",\"id\":\"368\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

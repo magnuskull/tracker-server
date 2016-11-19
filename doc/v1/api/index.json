@@ -1,8 +1,62 @@
 {
   "resources": [
     {
+      "name": "Timeline entries",
+      "examples": [
+        {
+          "description": "GET /v1/timeline-entries/:id",
+          "link": "timeline_entries/get_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:id",
+          "method": "get"
+        },
+        {
+          "description": "DELETE /v1/timeline-entries/:id",
+          "link": "timeline_entries/delete_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:timeline_entry_id",
+          "method": "delete"
+        },
+        {
+          "description": "GET /v1/timeline-entries",
+          "link": "timeline_entries/get_v1timeline-entries.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries",
+          "method": "get"
+        },
+        {
+          "description": "POST /v1/timeline-entries",
+          "link": "timeline_entries/post_v1timeline-entries.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries",
+          "method": "post"
+        },
+        {
+          "description": "PATCH /v1/timeline-entries/:id",
+          "link": "timeline_entries/patch_v1timeline-entries:id.json",
+          "groups": "all",
+          "route": "/v1/timeline-entries/:timeline_entry_id",
+          "method": "patch"
+        }
+      ]
+    },
+    {
       "name": "Timelines",
       "examples": [
+        {
+          "description": "POST /v1/timelines/",
+          "link": "timelines/post_v1timelines.json",
+          "groups": "all",
+          "route": "/v1/timelines",
+          "method": "post"
+        },
+        {
+          "description": "GET /v1/timelines",
+          "link": "timelines/get_v1timelines.json",
+          "groups": "all",
+          "route": "/v1/timelines/",
+          "method": "get"
+        },
         {
           "description": "GET /v1/timelines/:id",
           "link": "timelines/get_v1timelines:id.json",
@@ -18,65 +72,11 @@
           "method": "patch"
         },
         {
-          "description": "GET /v1/timelines",
-          "link": "timelines/get_v1timelines.json",
-          "groups": "all",
-          "route": "/v1/timelines/",
-          "method": "get"
-        },
-        {
-          "description": "POST /v1/timelines/",
-          "link": "timelines/post_v1timelines.json",
-          "groups": "all",
-          "route": "/v1/timelines",
-          "method": "post"
-        },
-        {
           "description": "DELETE /v1/timelines/:id",
           "link": "timelines/delete_v1timelines:id.json",
           "groups": "all",
           "route": "/v1/timelines/:timeline_id",
           "method": "delete"
-        }
-      ]
-    },
-    {
-      "name": "Timeline entries",
-      "examples": [
-        {
-          "description": "DELETE /v1/timeline-entries/:id",
-          "link": "timeline_entries/delete_v1timeline-entries:id.json",
-          "groups": "all",
-          "route": "/v1/timeline-entries/:timeline_entry_id",
-          "method": "delete"
-        },
-        {
-          "description": "PATCH /v1/timeline-entries/:id",
-          "link": "timeline_entries/patch_v1timeline-entries:id.json",
-          "groups": "all",
-          "route": "/v1/timeline-entries/:timeline_entry_id",
-          "method": "patch"
-        },
-        {
-          "description": "GET /v1/timeline-entries/:id",
-          "link": "timeline_entries/get_v1timeline-entries:id.json",
-          "groups": "all",
-          "route": "/v1/timeline-entries/:id",
-          "method": "get"
-        },
-        {
-          "description": "GET /v1/timeline-entries",
-          "link": "timeline_entries/get_v1timeline-entries.json",
-          "groups": "all",
-          "route": "/v1/timeline-entries",
-          "method": "get"
-        },
-        {
-          "description": "POST /v1/timeline-entries",
-          "link": "timeline_entries/post_v1timeline-entries.json",
-          "groups": "all",
-          "route": "/v1/timeline-entries",
-          "method": "post"
         }
       ]
     },

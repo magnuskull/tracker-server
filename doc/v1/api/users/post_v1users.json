@@ -33,7 +33,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"251\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/251\"},\"attributes\":{\"username\":\"mkull\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/251/relationships/timelines\",\"related\":\"http://example.org/v1/users/251/timelines\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/users/251/relationships/timeline-entries\",\"related\":\"http://example.org/v1/users/251/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"376\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/376\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.936Z\",\"username\":\"mkull\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/376/relationships/timelines\",\"related\":\"http://example.org/v1/users/376/timelines\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/users/376/relationships/timeline-entries\",\"related\":\"http://example.org/v1/users/376/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

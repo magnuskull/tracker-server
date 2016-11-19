@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "DELETE",
-      "request_path": "/v1/timelines/168",
+      "request_path": "/v1/timelines/258",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"

@@ -36,7 +36,7 @@
     {
       "request_method": "POST",
       "request_path": "/v1/timelines",
-      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline1\",\"question\":\"How are you now?\"},\"relationships\":{\"user\":{\"data\":{\"type\":\"users\",\"id\":\"243\"}}}}}",
+      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline1\",\"question\":\"How are you now?\"},\"relationships\":{\"user\":{\"data\":{\"type\":\"users\",\"id\":\"370\"}}}}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -45,7 +45,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"data\":{\"id\":\"167\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/167\"},\"attributes\":{\"name\":\"Timeline1\",\"question\":\"How are you now?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/167/relationships/user\",\"related\":\"http://example.org/v1/timelines/167/user\"},\"data\":{\"type\":\"users\",\"id\":\"243\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/167/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/167/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"253\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/253\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.796Z\",\"name\":\"Timeline1\",\"question\":\"How are you now?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/253/relationships/user\",\"related\":\"http://example.org/v1/timelines/253/user\"},\"data\":{\"type\":\"users\",\"id\":\"370\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/253/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/253/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

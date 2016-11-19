@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/v1/users/255",
+      "request_path": "/v1/users/380",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"255\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/255\"},\"attributes\":{\"username\":\"User Name 16\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/255/relationships/timelines\",\"related\":\"http://example.org/v1/users/255/timelines\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/users/255/relationships/timeline-entries\",\"related\":\"http://example.org/v1/users/255/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"380\",\"type\":\"users\",\"links\":{\"self\":\"http://example.org/v1/users/380\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:15.015Z\",\"username\":\"User Name 16\"},\"relationships\":{\"timelines\":{\"links\":{\"self\":\"http://example.org/v1/users/380/relationships/timelines\",\"related\":\"http://example.org/v1/users/380/timelines\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/users/380/relationships/timeline-entries\",\"related\":\"http://example.org/v1/users/380/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },
