@@ -6,12 +6,13 @@ gem 'puma'
 gem 'jsonapi-resources'
 gem 'pg'
 gem 'apitome'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.5'
   gem 'factory_girl_rails'
-  gem 'rspec_api_documentation'  
+  gem 'rspec_api_documentation'
 end
 group :development do
   gem 'spring'
