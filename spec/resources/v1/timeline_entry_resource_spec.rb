@@ -9,7 +9,7 @@ module V1
       described_class.new TimelineEntry.new, {}
     end
 
-    it "has the expected createable attributes" do
+    it "has the expected creatable attributes" do
       expect(described_class.creatable_fields({}).sort).to eq creatable_fields
     end
 

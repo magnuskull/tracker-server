@@ -11,7 +11,7 @@ module V1
         super - [:user]
       end
       def updatable_fields(context)
-        createable_fields(context)
+        creatable_fields(context)
       end
     end
 
