@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/v1/timeline-entries/121",
+      "request_path": "/v1/timeline-entries/5",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"121\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/121\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.614Z\",\"value\":1},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/121/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/121/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"247\"}},\"user\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/121/relationships/user\",\"related\":\"http://example.org/v1/timeline-entries/121/user\"},\"data\":{\"type\":\"users\",\"id\":\"364\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"5\",\"type\":\"timeline-entries\",\"links\":{\"self\":\"http://example.org/v1/timeline-entries/5\"},\"attributes\":{\"created-at\":\"2016-11-25T21:14:06.919Z\",\"value\":1},\"relationships\":{\"timeline\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/5/relationships/timeline\",\"related\":\"http://example.org/v1/timeline-entries/5/timeline\"},\"data\":{\"type\":\"timelines\",\"id\":\"5\"}},\"user\":{\"links\":{\"self\":\"http://example.org/v1/timeline-entries/5/relationships/user\",\"related\":\"http://example.org/v1/timeline-entries/5/user\"},\"data\":{\"type\":\"users\",\"id\":\"5\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

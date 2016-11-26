@@ -13,6 +13,9 @@ module V1
       def updatable_fields(context)
         creatable_fields(context)
       end
+      def default_sort
+        [{field: 'created_at', direction: :desc}, {field: 'id', direction: :desc}]
+      end
     end
 
     def fetchable_fields

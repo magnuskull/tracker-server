@@ -13,7 +13,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "/v1/timelines/256",
+      "request_path": "/v1/timelines/10",
       "request_body": null,
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
@@ -23,7 +23,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"256\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/256\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.853Z\",\"name\":\"Timeline 1\",\"question\":\"How are you?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/256/relationships/user\",\"related\":\"http://example.org/v1/timelines/256/user\"},\"data\":{\"type\":\"users\",\"id\":\"373\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/256/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/256/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"10\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/10\"},\"attributes\":{\"created-at\":\"2016-11-25T21:14:07.013Z\",\"name\":\"Timeline 1\",\"question\":\"How are you?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/10/relationships/user\",\"related\":\"http://example.org/v1/timelines/10/user\"},\"data\":{\"type\":\"users\",\"id\":\"10\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/10/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/10/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },

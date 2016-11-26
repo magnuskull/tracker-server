@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.2'
 gem 'bcrypt', '~> 3.1.7'
 gem 'puma'
-gem 'jsonapi-resources'
+gem 'jsonapi-resources', '0.8.1'
 gem 'pg'
 gem 'apitome'
 gem 'rack-cors', :require => 'rack/cors'
@@ -21,3 +21,5 @@ end
 group :test do
   gem 'shoulda-matchers', '~> 3.0'
 end
+
+ruby "2.2.1"

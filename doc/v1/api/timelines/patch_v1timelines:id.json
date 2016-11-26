@@ -40,8 +40,8 @@
   "requests": [
     {
       "request_method": "PATCH",
-      "request_path": "/v1/timelines/257",
-      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline edited\"},\"id\":\"257\"}}",
+      "request_path": "/v1/timelines/12",
+      "request_body": "{\"data\":{\"type\":\"timelines\",\"attributes\":{\"name\":\"Timeline edited\"},\"id\":\"12\"}}",
       "request_headers": {
         "Content-Type": "application/vnd.api+json"
       },
@@ -50,7 +50,7 @@
       "request_content_type": "application/vnd.api+json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"data\":{\"id\":\"257\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/257\"},\"attributes\":{\"created-at\":\"2016-11-19T19:22:14.871Z\",\"name\":\"Timeline edited\",\"question\":\"How are you?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/257/relationships/user\",\"related\":\"http://example.org/v1/timelines/257/user\"},\"data\":{\"type\":\"users\",\"id\":\"374\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/257/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/257/timeline-entries\"}}}}}",
+      "response_body": "{\"data\":{\"id\":\"12\",\"type\":\"timelines\",\"links\":{\"self\":\"http://example.org/v1/timelines/12\"},\"attributes\":{\"created-at\":\"2016-11-25T21:14:07.050Z\",\"name\":\"Timeline edited\",\"question\":\"How are you?\"},\"relationships\":{\"user\":{\"links\":{\"self\":\"http://example.org/v1/timelines/12/relationships/user\",\"related\":\"http://example.org/v1/timelines/12/user\"},\"data\":{\"type\":\"users\",\"id\":\"12\"}},\"timeline-entries\":{\"links\":{\"self\":\"http://example.org/v1/timelines/12/relationships/timeline-entries\",\"related\":\"http://example.org/v1/timelines/12/timeline-entries\"}}}}}",
       "response_headers": {
         "Content-Type": "application/vnd.api+json; charset=utf-8"
       },
