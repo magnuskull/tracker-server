@@ -11,18 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161119110407) do
+ActiveRecord::Schema.define(version: 20161129145724) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "numeric_entries", force: :cascade do |t|
+    t.integer  "value",      null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "timeline_entries", force: :cascade do |t|
-    t.integer  "value",       null: false
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "timeline_id", null: false
+    t.integer  "entry_id"
+    t.string   "entry_type"
   end
 
+  add_index "timeline_entries", ["entry_type", "entry_id"], name: "index_timeline_entries_on_entry_type_and_entry_id", using: :btree
   add_index "timeline_entries", ["timeline_id"], name: "index_timeline_entries_on_timeline_id", using: :btree
 
   create_table "timelines", force: :cascade do |t|
