@@ -2,12 +2,14 @@ RSpec.describe Timeline do
   describe "attributes" do
     it { is_expected.to have_attribute :name }
     it { is_expected.to have_attribute :question }
+    it { is_expected.to define_enum_for(:timeline_type).with([:Numeric, :Text]) }
   end
 
   describe "validations" do
     it { is_expected.to validate_presence_of :name }
     it { is_expected.to validate_presence_of :question }
     it { is_expected.to validate_presence_of :user }
+    it { is_expected.to validate_presence_of :timeline_type }
   end
 
   describe "relations" do

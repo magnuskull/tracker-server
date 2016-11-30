@@ -1,6 +1,6 @@
 class NumericEntry < ActiveRecord::Base
 
-  has_one :timeline_entry, as: :entry
+  has_one :timeline_entry, as: :entry, dependent: :destroy
   has_one :timeline, through: :timeline_entry
 
   validates_presence_of :value

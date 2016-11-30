@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161129155147) do
+ActiveRecord::Schema.define(version: 20161129191228) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,19 +32,20 @@ ActiveRecord::Schema.define(version: 20161129155147) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "timeline_id", null: false
-    t.integer  "entry_id"
-    t.string   "entry_type"
+    t.integer  "entry_id",    null: false
+    t.string   "entry_type",  null: false
   end
 
   add_index "timeline_entries", ["entry_type", "entry_id"], name: "index_timeline_entries_on_entry_type_and_entry_id", using: :btree
   add_index "timeline_entries", ["timeline_id"], name: "index_timeline_entries_on_timeline_id", using: :btree
 
   create_table "timelines", force: :cascade do |t|
-    t.string   "name",                                        null: false
-    t.datetime "created_at",                                  null: false
-    t.datetime "updated_at",                                  null: false
-    t.integer  "user_id",                                     null: false
-    t.text     "question",   default: "What's the question?", null: false
+    t.string   "name",                                           null: false
+    t.datetime "created_at",                                     null: false
+    t.datetime "updated_at",                                     null: false
+    t.integer  "user_id",                                        null: false
+    t.text     "question",      default: "What's the question?", null: false
+    t.integer  "timeline_type", default: 0,                      null: false
   end
 
   add_index "timelines", ["user_id"], name: "index_timelines_on_user_id", using: :btree
